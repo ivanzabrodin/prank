@@ -1,0 +1,340 @@
+@font-face { 
+  font-family: 'supermolotblack';       
+  src: url('../fonts/supermolot_black-webfont.ttf');  
+  font-weight: 400;
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'supermolotblack';       
+  src: url('../fonts/supermolot_black_italic-webfont.ttf');  
+  font-weight: 400;
+  font-style: italic; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot-webfont.ttf');  
+  font-weight: 400;
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/Supermolot_Bold.otf');  
+  font-weight: 700;
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot_bold_italic-webfont.ttf');  
+  font-weight: 700;
+  font-style: bold; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot_italic-webfont.ttf');  
+  font-weight: 400;
+  font-style: italic; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot_light-webfont.ttf');  
+  font-weight: 400;
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot_light_italic-webfont.ttf');  
+  font-weight: 700;
+  font-style: italic; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot_thin-webfont.ttf');  
+  font-weight: 400;
+  font-style: normal; 
+} 
+
+@font-face { 
+  font-family: 'supermolot';       
+  src: url('../fonts/supermolot_thin_italic-webfont.ttf');  
+  font-weight: 700;
+  font-style: italic; 
+} 
+
+body {
+	font-family: supermolot;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header {
+	margin: 0;
+	height: 1300px;
+	width: 100%;
+	background-image: url(../img/bg-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	overflow: hidden;
+}
+
+.header__logo {
+	margin: 500px auto 48px;
+	width: 740px;
+}
+
+.header__logo__img {
+	display: inline-block;
+	float: left;
+	margin-right: 48px;
+	margin-top: 21px;
+}
+
+.header__logo__text {
+ 	color: white;
+	font-size: 45px;
+	font-weight: 700;
+}
+
+.header__btn-order {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	font-weight: 700;
+	padding: 8px 7px 13px 8px;
+	border: 4px solid #23c52e;
+	text-decoration: none;
+	border-radius: 4px;
+	margin-left: 210px;
+	margin-top: -10px;
+}
+
+.header__buttons {
+	margin-top: 235px;
+	margin-left: 80px;
+}
+
+.header__buttons__button {
+	margin-right:;
+	float: left;
+	max-width: 165px;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 700;
+	display: inline-block;
+}
+
+.header__buttons__bg {
+	margin-bottom: 28px;
+}
+
+.header__buttons__img--how {
+	position: absolute;
+	top: 200px;
+	left: 200px;
+}
+
+.header__buttons__img--examples {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header__buttons__img--about {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header__buttons__img--reviews {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/*Main*/
+.head-how {
+	background-image: url(../img/bg-head-how.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	width: 100%;
+	height: 160px;
+	margin-top: -40px;
+	text-align: center;
+}
+
+.head-how__title {
+	color: white;
+	font-size: 50px;
+	font-weight: bold;
+	display: inline-block;
+
+}
+/*Main*/
+
+.how {
+	background-image: url(../img/bg-how.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	padding-top: 75px;
+}
+
+.how__item {
+	width: 703px;
+	height: 330px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.how__item__img {
+	float: left;
+	margin-left: 85px;
+}
+
+.how__item__text {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 120px;
+	width: 330px;
+	margin-left: 38px;
+}
+
+.how__item__rez {
+	width: 950px;
+	height: 330px;
+	margin: 0 auto;
+}
+
+.how__item__img__rez {
+	float: left;
+	margin-left: 205px;
+}
+
+.how__item__text__rez {
+	width: 430px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 90px;
+	margin-left: 40px; 
+}
+
+.text-green {
+	color: #4fcd5e; 20 11 21 12
+}
+
+.how__item__btn {
+	color: white;
+	background-color: #4fcd5e;
+	padding: 20px 11px 21px 12px;
+	font-weight: bold;
+	border-radius: 4px;
+	font-size: 30px;
+	display: inline-block;
+	margin-top: 29px;
+	margin-left: 20px;
+}
+
+.example {
+	height: 827px;
+	text-align: center;
+	padding-top: 150px;
+}
+
+.example__item {
+
+}
+
+.example__item__player {
+	margin-bottom: 65px;
+}
+
+.example__item__text {
+	font-weight: bold;
+	font-size: 30px;
+	color: #29bb39;
+	width: 750px;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+
+.order {
+	height: 1327px;
+	width: 100%;
+	background-image: url(../img/bg-bottom-table.png);
+	background-repeat: no-repeat;
+	position: relative;
+	background-position: center 0;
+}
+
+.order__name {
+	position: absolute;
+	left: 50%;
+	margin-left: -114px;
+	bottom: 395px;
+	padding: 12px 0 14px 30px;
+	border: 4px solid #5cb967;
+	border-radius: 4px;
+	font-size: 22px;
+	font-weight: bold;
+	width: 239px;
+	background-color: transparent;
+}
+
+.order__mail {
+	position: absolute;
+	left: 50%;
+	margin-left: -114px;
+	bottom: 305px;
+	padding: 12px 0 14px 13px;
+	border: 4px solid #5cb967;
+	border-radius: 4px;
+	font-size: 22px;
+	font-weight: bold;
+	width: 256px;
+	background-color: transparent;
+}
+
+.order__btn {
+	position: absolute;
+	left: 50%;
+	margin-left: -114px;
+	bottom: 221px;
+	padding: 13px 0 13px 11px;
+	border-radius: 4px;
+	font-size: 30px;
+	font-weight: bold;
+	width: 266px;
+	background-color: #4fcd5e;
+	color: white;
+	text-decoration: none;
+}
+
+.features {
+
+}
+
+.features__title {
+	text-align: center;
+	font-size: 45px;
+	color: #4fcd5e;
+	margin-top: -97px;
+	position: absolute;
+	left: 50%;
+	margin-left: -220px;
+}
