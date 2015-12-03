@@ -74,8 +74,12 @@ body {
 
 .container {
 	max-width: 1200px;
-	margin: 0 auto;
 	min-width: 320px;
+	margin: 0 auto;
+}
+
+.long {
+	max-width: 1400px;
 }
 
 header {
@@ -326,8 +330,42 @@ header {
 }
 
 .features {
+	background-color: #131313;
+	height: 822px;
+	width: 100%;
+	position: relative;
+	margin-top: 165px;
+}
+
+.features:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    transform-origin: left top;
+    transform: skewY(-9deg);
+}
+
+.features__head {
 
 }
+
+.features:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-9deg);
+}
+
+
 
 .features__title {
 	text-align: center;
@@ -337,4 +375,71 @@ header {
 	position: absolute;
 	left: 50%;
 	margin-left: -220px;
+}
+
+.features__item--one {
+	width: 580px;
+	display: inline-block;
+	position: absolute;
+	top: -53px;
+}
+
+.features__item--two {
+	width: 580px;
+	display: inline-block;
+	position: absolute;
+	left: 50%;
+	top: -130px;
+}
+
+.features__item--three {
+	width: 580px;
+	display: inline-block;
+	position: absolute;
+	top: 440px;
+}
+
+.features__item--four {
+	width: 580px;
+	display: inline-block;
+	margin-top: -150px;
+	position: absolute;
+	left: 50%;
+	top: 480px;
+}
+
+.features__item__title {
+	font-size: 30px;
+	font-weight: bold;
+	color: #4fcd5e;
+	margin-bottom: 0;
+}
+
+.features__item__text {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.features__item__img--three {
+	display: inline-block;
+	margin-left: -38px;
+}
+
+.features__btn {
+	color: white;
+	background-color: #4fcd5e;
+	padding: 13px 10px 13px 11px;
+	border-radius: 4px;
+	position: absolute;
+	bottom: -180px;
+	left: 50%;
+	margin-left: -143px;
+	font-weight: bold;
+	font-size: 30px;
+    text-decoration: none;
+    transform: skewY(-9deg);
+    -webkit-box-shadow: 0px 5px 3px 0px rgba(28,142,41,1);
+	-moz-box-shadow: 0px 5px 3px 0px rgba(28,142,41,1);
+	box-shadow: 0px 5px 3px 0px rgba(28,142,41,1);
 }
