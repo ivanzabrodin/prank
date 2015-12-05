@@ -89,7 +89,7 @@ body {
 
 header {
 	margin: 0;
-	height: 1300px;
+	height: 1260px;
 	width: 100%;
 	background-image: url(../img/bg-header.jpg);
 	background-repeat: no-repeat;
@@ -180,7 +180,6 @@ header {
 	background-position: center 0;
 	width: 100%;
 	height: 160px;
-	margin-top: -40px;
 	text-align: center;
 }
 
@@ -302,6 +301,7 @@ header {
 	font-weight: bold;
 	width: 239px;
 	background-color: transparent;
+	color: white;
 }
 
 .order__mail {
@@ -316,6 +316,7 @@ header {
 	font-weight: bold;
 	width: 256px;
 	background-color: transparent;
+	color: white;
 }
 
 .order__btn {
@@ -447,7 +448,8 @@ header {
 .features__nlo-img {
 	position: absolute;
 	bottom: -382px;
-	right: 40px;
+	left: 50%;
+	margin-left: 450px;
 }
 
 .tv {
@@ -483,8 +485,9 @@ header {
 
 .tv__robo {
 	position: absolute;
-	left: 0;
+	left: 50%;
 	bottom: 160px;
+	margin-left: -952px;
 }
 
 .timer {
@@ -510,7 +513,8 @@ header {
 .timer__img {
 	position: absolute;
 	top: -90px;
-	right: 17.7%;
+	left: 50%;
+	margin-left: 365px;
 	z-index: 2;
 }
 
