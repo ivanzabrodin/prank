@@ -511,6 +511,7 @@ header {
 	position: absolute;
 	top: -90px;
 	right: 17.7%;
+	z-index: 2;
 }
 
 .timer__btn {
@@ -530,4 +531,23 @@ header {
 	bottom: -45px;
 	left: 50%;
 	margin-left: -188px;
+}
+
+.timer__countdown {
+	background-image: url(../img/bg-countdown.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	width: 100%;
+	height: 210px;
+	margin-top: 19px;
+	position: relative;
+	z-index: 1;
+}
+
+.countdown {
+	width: 1150px;
+	position: absolute;
+	top: 70px;
+	left: 50%;
+	margin-left: -575px;
 }
