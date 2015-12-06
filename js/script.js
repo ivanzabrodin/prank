@@ -19,7 +19,7 @@ $(document).ready(function() {
     $("#jquery_jplayer_1").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            mp3: ""
+            mp3: "../media/glass_candy_-_digital_versicolor.mp3"
           });
         },
         swfPath: "/js",
