@@ -89,7 +89,7 @@ body {
 
 header {
 	margin: 0;
-	height: 1260px;
+	height: 1280px;
 	width: 100%;
 	background-image: url(../img/bg-header.jpg);
 	background-repeat: no-repeat;
@@ -124,25 +124,80 @@ header {
 	border: 4px solid #23c52e;
 	text-decoration: none;
 	border-radius: 4px;
-	margin-left: 210px;
+	margin-left: 218px;
 	margin-top: -10px;
 }
 
 .header__buttons {
-	margin-top: 235px;
+	margin-top: 200px;
 	margin-left: 80px;
 }
 
 .header__buttons__button {
-	margin-right:;
+	margin-left: 30px;
 	float: left;
-	max-width: 165px;
 	text-align: center;
 	color: white;
 	text-decoration: none;
 	font-size: 30px;
 	font-weight: 700;
 	display: inline-block;
+	background-image: url(../img/bg-button.png);
+	background-repeat: no-repeat;
+	background-position: center 27px;
+	padding: 185px 31px 30px 30px;
+	width: 170px;
+	position: relative;
+}
+
+.header__buttons__img--how {
+	position: absolute;
+	left: 50%;
+	margin-left: -318px;
+	top: 0;
+	margin-top: -230px;
+}
+
+.header__buttons__img--examples {
+	position: absolute;
+	left: 50%;
+	margin-left: 60px;
+	top: 0;
+	margin-top: 25px;
+}
+
+.header__buttons__img--about {
+	position: absolute;
+	left: 50%;
+	margin-left: 15px;
+	top: 0;
+	margin-top: 8px;
+}
+
+.header__buttons__img--reviews {
+	position: absolute;
+	left: 50%;
+	margin-left: 42px;
+	top: 0;
+	margin-top: 26px;
+}
+
+.header__buttons__button:hover {
+	background-image: url(../img/bg-button-shadow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	border-radius: 70px 70px;
+	color: #0ccb23;
+}
+
+/*.header__buttons__button__test:hover {
+	color: #0ccb23;
+}*/
+
+.header__buttons__button__bg:hover {
+	-webkit-box-shadow: 0px 0px 29px 10px rgba(9,198,36,0.53);
+	-moz-box-shadow: 0px 0px 29px 10px rgba(9,198,36,0.53);
+	box-shadow: 0px 0px 29px 10px rgba(9,198,36,0.53);
 }
 
 .header__buttons__bg {
@@ -949,8 +1004,8 @@ footer {
 	text-align: left;
 	margin-top: 62px;
 	position: absolute;
-	left: 355px;
-	top: 620px;
+	left: 50%;
+	margin-left: -572px;
 }
 
 .footer__address__text {
@@ -962,7 +1017,8 @@ footer {
 .footer__author {
 	text-align: right;
 	position: absolute;
-	right: 355px;
+	left: 50%;
+	margin-left: 168px;
 	top: 704px;
 }
 
@@ -975,7 +1031,8 @@ footer {
 .footer__pay {
 	position: absolute;
 	bottom: 92px;
-	left: 455px;
+	left: 50%;
+	margin-left: -496px;
 	opacity: 0.7;
 }
 
