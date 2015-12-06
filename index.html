@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/jquery.countdown.css">
+	<link rel="stylesheet" type="text/css" href="css/player.css">
 </head>
 <body>
 	<!-- Header -->
@@ -66,35 +67,117 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="example">
 			<div class="container">
 				<div class="example__item">
 					<span class="example__item__text">Примерный сценарий розыгрыша:<br>"Милее котиков"</span>
-					<img src="img/player.PNG" alt="" class="example__item__player">
+					<div id="jquery_jplayer_1" class="jp-jplayer"></div>
+					<div id="jp_container_1" class="jp-audio">
+						<div class="jp-type-single">
+
+							<div class="jp-gui jp-interface">
+
+								<ul class="jp-controls">
+									<li><a href="javascript:;" class="jp-play" tabindex="1"></a></li>
+									<li><a href="javascript:;" class="jp-pause" tabindex="1"></a></li>
+								</ul>
+
+								<div class="jp-progress">
+									<div class="jp-seek-bar">
+										<div class="jp-play-bar"></div>
+									</div>
+								</div>
+
+								<div class="jp-time-holder">
+									<div class="jp-current-time"></div>
+								</div>
+
+								<div class="jp-no-solution">
+									<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div class="example__item">
 					<span class="example__item__text">Примерный сценарий розыгрыша:<br>"Накажи босса"</span>
-					<img src="img/player.PNG" alt="" class="example__item__player">
-				</div>
-				<div class="example__item">
-					<span class="example__item__text">Психологическая консультация от Вольнова</span>
-					<img src="img/player.PNG" alt="" class="example__item__player">
-				</div>
-			</div>
-		</div>
+					<div id="jquery_jplayer_2" class="jp-jplayer"></div>
+					<div id="jp_container_2" class="jp-audio">
+						<div class="jp-type-single">
 
-		<div class="order">
-			<input type="text" class="order__name" placeholder="Введите ваше имя">
-			<input type="text" class="order__mail" placeholder="Введите адрес почты">
-			<a href="" class="order__btn">Оставить заявку</a>
-		</div>
-		
-		<div class="features__head">
-			<div class="container">
-				<h3 class="features__title">Виды розыгрышей</h3>
+							<div class="jp-gui jp-interface">
+
+								<ul class="jp-controls">
+									<li><a href="javascript:;" class="jp-play" tabindex="1"></a></li>
+									<li><a href="javascript:;" class="jp-pause" tabindex="1"></a></li>
+								</ul>
+
+								<div class="jp-progress">
+									<div class="jp-seek-bar">
+										<div class="jp-play-bar"></div>
+									</div>
+								</div>
+
+								<div class="jp-time-holder">
+									<div class="jp-current-time"></div>
+								</div>
+
+								<div class="jp-no-solution">
+									<span>Update Required</span>
+									To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="example__item">
+				<span class="example__item__text">Психологическая консультация от Вольнова</span>
+				<div id="jquery_jplayer_3" class="jp-jplayer"></div>
+				<div id="jp_container_3" class="jp-audio">
+					<div class="jp-type-single">
+
+						<div class="jp-gui jp-interface">
+
+							<ul class="jp-controls">
+								<li><a href="javascript:;" class="jp-play" tabindex="1"></a></li>
+								<li><a href="javascript:;" class="jp-pause" tabindex="1"></a></li>
+							</ul>
+
+							<div class="jp-progress">
+								<div class="jp-seek-bar">
+									<div class="jp-play-bar"></div>
+								</div>
+							</div>
+
+							<div class="jp-time-holder">
+								<div class="jp-current-time"></div>
+							</div>
+
+							<div class="jp-no-solution">
+								<span>Update Required</span>
+								To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+	</div>
+</div>
+
+<div class="order">
+	<input type="text" class="order__name" placeholder="Введите ваше имя">
+	<input type="text" class="order__mail" placeholder="Введите адрес почты">
+	<a href="" class="order__btn">Оставить заявку</a>
+</div>
+
+<div class="features__head">
+	<div class="container">
+		<h3 class="features__title">Виды розыгрышей</h3>
+	</div>
+</div>
 
 		<div class="features">
 			<div class="container">
@@ -180,6 +263,16 @@
 					</div>
 				</div>
 
+				<div class="reviews">
+					<div class="container">
+						<h3 class="reviews__title">Абсолютно реальные <span class="reviews__title--green">отзывы клиентов</span>, имена
+изменены в целях конфиденциальности</h3>
+						<img src="img/persona1.png" alt="" class="reviews__img1">
+						<img src="img/persona2.png" alt="" class="reviews__img2">
+						<div class="gallery"></div>
+					</div>
+				</div>
+
 
 
 
@@ -240,6 +333,7 @@
 	<script src= "js/jquery.plugin.min.js"></script>
 	<script src= "js/jquery.countdown.min.js"></script>
 	<script src= "js/jquery.countdown-ru.js"></script>
+	<script src= "js/jquery.jplayer.min.js"></script>
 	<script src= "js/script.js"></script>
 </body>
 </html>

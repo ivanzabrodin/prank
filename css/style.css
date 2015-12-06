@@ -264,7 +264,7 @@ header {
 }
 
 .example__item {
-
+	height: 280px;
 }
 
 .example__item__player {
@@ -560,17 +560,49 @@ header {
 	text-align: center;
 	position: relative;	
 	margin-top: 240px;
-	::-webkit-input-placeholder {color: black;}
+	/*::-webkit-input-placeholder {color: black;}
 	::-moz-placeholder          {color: black;}
 	:-moz-placeholder           {color: black;}
-	:-ms-input-placeholder      {color: black;}
+	:-ms-input-placeholder      {color: black;}*/
+}
+
+.why__form__name::-webkit-input-placeholder {
+	color: black !important;
+}
+
+.why__form__name::-moz-placeholder {
+	color: black;
+}
+
+.why__form__name:-moz-placeholder {
+	color: black;
+}
+
+.why__form__name:-ms-input-placeholder {
+	color: black;
+}
+
+.why__form__mail::-webkit-input-placeholder {
+	color: black !important;
+}
+
+.why__form__mail::-moz-placeholder {
+	color: black;
+}
+
+.why__form__mail:-moz-placeholder {
+	color: black;
+}
+
+.why__form__mail:-ms-input-placeholder {
+	color: black;
 }
 
 .why__img {
 	position: absolute;
 	left: 50%;
 	margin-left: -585px;
-	top: -192px;
+	top: -154px;
 }
 
 .why__title {
@@ -578,7 +610,8 @@ header {
 	font-weight: bold;
 	text-align: center;
 	width: 720px;
-	margin-left: 240px;
+	margin: 0 auto 75px;
+
 }
 
 .why__title--green {
@@ -638,39 +671,39 @@ header {
 .why__form__name {
 	position: absolute;
 	left: 50%;
-	margin-left: -114px;
-	bottom: 395px;
-	padding: 12px 0 14px 30px;
+	margin-left: -289px;
+	bottom: 261px;
+	padding: 15px 165px;
 	border: 4px solid #5cb967;
 	border-radius: 4px;
 	font-size: 22px;
 	font-weight: bold;
 	width: 239px;
 	background-color: transparent;
-	color: white;
+	color: black;
 }
 
 .why__form__mail {
 	position: absolute;
 	left: 50%;
-	margin-left: -114px;
-	bottom: 305px;
-	padding: 12px 0 14px 13px;
+	margin-left: -289px;
+	bottom: 173px;
+	padding: 15px 157px;
 	border: 4px solid #5cb967;
 	border-radius: 4px;
 	font-size: 22px;
 	font-weight: bold;
 	width: 256px;
 	background-color: transparent;
-	color: white;
+	color: black;
 }
 
 .why__form__btn {
 	position: absolute;
 	left: 50%;
-	margin-left: -114px;
-	bottom: 221px;
-	padding: 13px 0 13px 11px;
+	margin-left: -289px;
+	bottom: 85px;
+	padding: 15px 157px;
 	border-radius: 4px;
 	font-size: 30px;
 	font-weight: bold;
@@ -678,3 +711,44 @@ header {
 	background-color: #4fcd5e;
 	color: white;
 	text-decoration: none;
+}
+
+.reviews {
+	height: 689px;
+	position: relative;
+	text-align: center;
+}
+
+.reviews__title {
+	font-size: 37px;
+	font-weight: bold;
+	text-align: center;
+	width: 920px;
+	margin: 0 auto;
+}
+
+.reviews__img1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -660px;
+}
+
+.reviews__img2 {
+	position: absolute;
+	left: 50%;
+	margin-left: 300px;
+}
+
+.reviews__title--green {
+	color: green;
+}
+
+.gallery {
+	display: inline-block;
+	height: 323px;
+	width: 553px;
+	margin: 0 auto;
+	background-color: red;
+	border-radius: 9px;
+	margin-top: 45px;
+}
