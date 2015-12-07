@@ -1146,4 +1146,22 @@ footer {
 		opacity: 0.7;
 }
 
+.reviews__slider__author {
+	display: inline-block;
+	width: 550px;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 39px;
+	margin-bottom: 27px;
+}
 
+.reviews__slider__text {
+	display: inline-block;
+	font-size: 17px;
+	font-weight: bold;
+	width: 520px;
+}
+
+.reviews__slider {
+	margin-left: -80px;
+}
