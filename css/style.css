@@ -448,6 +448,14 @@ header {
 	top: -130px;
 }
 
+.features__item__x {
+	position: absolute;
+	left: 50%;
+	margin-left: -320px;
+	top: 251px;
+
+}
+
 .features__item--three {
 	width: 580px;
 	display: inline-block;
