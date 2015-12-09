@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-	max-width: 1200px;
+	max-width: 1100px;
 	min-width: 320px;
 	margin: 0 auto;
 }
@@ -78,11 +78,11 @@ header {
 	color: white;
 	font-size: 30px;
 	font-weight: 700;
-	padding: 8px 7px 13px 8px;
+	padding: 8px 7px 10px 8px;
 	border: 4px solid #23c52e;
 	text-decoration: none;
 	border-radius: 4px;
-	margin-left: 218px;
+	margin-left: 170px;
 	margin-top: -10px;
 }
 
@@ -92,7 +92,7 @@ header {
 }
 
 .header__buttons__button {
-	margin-left: 30px;
+	margin-left: 20px;
 	float: left;
 	text-align: center;
 	color: white;
@@ -281,8 +281,8 @@ header {
 	height: 280px;
 }
 
-.example__item__player {
-	margin-bottom: 65px;
+.example__item--last {
+	margin-top: 38px;
 }
 
 .example__item__text {
@@ -291,7 +291,6 @@ header {
 	color: #29bb39;
 	width: 750px;
 	display: inline-block;
-	margin-bottom: 16px;
 }
 
 .order {
@@ -380,8 +379,6 @@ header {
     transform: skewY(-9deg);
 }
 
-
-
 .features__title {
 	text-align: center;
 	font-size: 45px;
@@ -393,18 +390,20 @@ header {
 }
 
 .features__item--one {
-	width: 580px;
+	width: 525px;
 	display: inline-block;
-	position: absolute;
-	top: -53px;
+	position: relative;
+	height: 460px;
+	margin-left: -17px;
 }
 
 .features__item--two {
-	width: 580px;
+	width: 525px;
 	display: inline-block;
-	position: absolute;
-	left: 50%;
-	top: -130px;
+	position: relative;
+	height: 460px;
+	margin-left: 60px;
+	margin-top: -100px;
 }
 
 .features__item__x {
@@ -412,23 +411,21 @@ header {
 	left: 50%;
 	margin-left: -320px;
 	top: 251px;
-
 }
 
 .features__item--three {
-	width: 580px;
+	width: 525px;
 	display: inline-block;
-	position: absolute;
-	top: 440px;
+	position: relative;
+	height: 460px;
 }
 
 .features__item--four {
-	width: 580px;
+	width: 525px;
 	display: inline-block;
 	margin-top: -150px;
-	position: absolute;
-	left: 50%;
-	top: 480px;
+	position: relative;
+	height: 460px;
 }
 
 .features__item__title {
