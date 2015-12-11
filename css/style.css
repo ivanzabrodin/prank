@@ -342,10 +342,14 @@ header {
 
 .features {
 	background-color: #131313;
-	width: 1100px;
+	width: 100%;
 	position: relative;
-	margin-top: 165px;
+	margin-top: 190px;
 	height: 870px;
+}
+
+.features--w {
+	width: 1100px;
 }
 
 .features:before{
@@ -481,6 +485,10 @@ header {
 	padding-right: 50px;
 	position: relative;
 	height: 1626px;
+	width: 100%;
+}
+
+.tv--w {
 	width: 1100px;
 }
 
@@ -573,11 +581,14 @@ header {
 }
 
 .why {
-	height: 1000px;
-	width: 1100px;
+	width: 100%;
 	text-align: center;
 	position: relative;	
 	margin-top: 240px;
+}
+
+.why--w {
+	width: 1100px;
 }
 
 .why__form__name::-webkit-input-placeholder {
@@ -707,12 +718,10 @@ header {
 	width: 239px;
 	background-color: transparent;
 	color: black;
-	margin: 0 auto;
 	margin-top: 80px;
 }
 
 .why__form__mail {
-	
 	padding: 15px 157px;
 	border: 4px solid #5cb967;
 	border-radius: 4px;
@@ -737,7 +746,7 @@ header {
 	-webkit-box-shadow: 0px 7px 1px 0px rgba(28,142,42,1);
 	-moz-box-shadow: 0px 7px 1px 0px rgba(28,142,42,1);
 	box-shadow: 0px 7px 1px 0px rgba(28,142,42,1);
-	margin: 0 auto;
+	margin-bottom: 90px;
 }
 
 .reviews {
@@ -997,7 +1006,6 @@ footer {
 	left: 50%;
 	margin-left: -496px;
 	opacity: 0.7;
-	width: 1100px;
 }
 
 .footer__pay__al {
@@ -1210,8 +1218,12 @@ footer {
 		background-color: #131313;
 		width: 100%;
 		position: relative;
-		margin-top: 165px;
+		margin-top: 110px;
 		height: 1900px;
+	}
+
+	.features--w {
+		width: auto;
 	}
 
 	.features__title {
@@ -1300,6 +1312,10 @@ footer {
 		height: 1050px;
 	}
 
+	.tv--w {
+		width: auto;
+	}
+
 	.tv__title {
 		font-weight: bold;
 		font-size: 34px;
@@ -1322,6 +1338,7 @@ footer {
 
 	.tv__item--even {
 		float: right;
+		margin-right: 30px;
 	}
 
 	.tv__robo {
@@ -1350,6 +1367,10 @@ footer {
 		width: 960px;
 		padding: 70px 0;
 		margin: 0 auto;
+	}
+
+	.why--w {
+		width: auto;
 	}
 
 	.why__img {
@@ -1404,5 +1425,20 @@ footer {
 		margin: 0;
 		color: #ffffff;
 	}
+
+	.reviews {
+		height: 689px;
+		text-align: center;
+		margin-top: 35px;
+	}
+
+	.footer__pay {
+	position: absolute;
+	bottom: 60px;
+	left: 50%;
+	margin-left: -496px;
+	opacity: 0.7;
+	}
+
 
 }
