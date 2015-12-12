@@ -112,9 +112,12 @@ header {
 .header__buttons__img--how {
 	position: absolute;
 	left: 50%;
-	margin-left: -318px;
+	margin-left: -333px;
 	top: 0;
 	margin-top: -230px;
+	position: absolute;
+	top: 200px;
+	left: 200px;
 }
 
 .header__buttons__img--examples {
@@ -123,6 +126,9 @@ header {
 	margin-left: 60px;
 	top: 0;
 	margin-top: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .header__buttons__img--about {
@@ -131,6 +137,9 @@ header {
 	margin-left: 15px;
 	top: 0;
 	margin-top: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .header__buttons__img--reviews {
@@ -139,6 +148,9 @@ header {
 	margin-left: 42px;
 	top: 0;
 	margin-top: 26px;
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .header__buttons__button:hover {
@@ -149,10 +161,6 @@ header {
 	color: #0ccb23;
 }
 
-/*.header__buttons__button__test:hover {
-	color: #0ccb23;
-}*/
-
 .header__buttons__button__bg:hover {
 	-webkit-box-shadow: 0px 0px 29px 10px rgba(9,198,36,0.53);
 	-moz-box-shadow: 0px 0px 29px 10px rgba(9,198,36,0.53);
@@ -161,30 +169,6 @@ header {
 
 .header__buttons__bg {
 	margin-bottom: 28px;
-}
-
-.header__buttons__img--how {
-	position: absolute;
-	top: 200px;
-	left: 200px;
-}
-
-.header__buttons__img--examples {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.header__buttons__img--about {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-.header__buttons__img--reviews {
-	position: absolute;
-	top: 0;
-	left: 0;
 }
 
 /*Main*/
@@ -1180,7 +1164,7 @@ footer {
 	.header__buttons {
 		margin-top: 200px;
 		margin-left: 80px;
-}
+	}
 
 	.header__buttons__img--how {
 		position: absolute;
@@ -1254,8 +1238,8 @@ footer {
 	.features__item__x {
 		position: absolute;
 		left: 50%;
-		margin-left: -299px;
-		top: 254px;
+		margin-left: -290px;
+		top: 733	px;
 
 	}
 
@@ -1310,6 +1294,7 @@ footer {
 		padding-right: 50px;
 		position: relative;
 		height: 1050px;
+		width: 870px;
 	}
 
 	.tv--w {
@@ -1433,12 +1418,245 @@ footer {
 	}
 
 	.footer__pay {
-	position: absolute;
-	bottom: 60px;
-	left: 50%;
-	margin-left: -496px;
-	opacity: 0.7;
+		position: absolute;
+		bottom: 60px;
+		left: 50%;
+		margin-left: -496px;
+		opacity: 0.7;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		max-width: 768px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
+	header {
+	margin: 0;
+	height: 1280px;
+	width: 100%;
+	background-image: url(../img/bg-header.jpg);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	overflow: hidden;
+	}
 
+	.header__btn-order {
+		display: inline-block;
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+		padding: 8px 7px 10px 8px;
+		border: 4px solid #23c52e;
+		text-decoration: none;
+		border-radius: 4px;
+		margin-left: -350px;
+		margin-top: -10px;
+	}
+
+	.header__buttons {
+		margin-top: 50px;
+		margin-left: 170px;
+		width: 440px;
+	}
+
+	.header__buttons__button {
+		margin-left: 0;
+		float: left;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		font-size: 25px;
+		font-weight: 700;
+		display: inline-block;
+		background-image: url(../img/bg-button.png);
+		background-repeat: no-repeat;
+		background-position: center 27px;
+		padding: 175px 31px 30px 30px;
+		width: 140px;
+		position: relative;
+		height: 70px;
+	}
+
+	.header__buttons__img--how {
+		position: absolute;
+		left: 50%;
+		margin-left: -333px;
+		top: 0;
+		margin-top: -230px;
+		position: absolute;
+		top: 200px;
+		left: 200px;
+	}
+
+	.header__buttons__img--examples {
+		position: absolute;
+		left: 50%;
+		margin-left: 45px;
+		top: 0;
+		margin-top: 25px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.header__buttons__img--about {
+		position: absolute;
+		left: 50%;
+		margin-left: 0;
+		top: 0;
+		margin-top: 8px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.header__buttons__img--reviews {
+		position: absolute;
+		left: 50%;
+		margin-left: 27px;
+		top: 0;
+		margin-top: 26px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.header__buttons__bg {
+		margin-bottom: 28px;
+	}
+
+	.how__item__img {
+		float: left;
+		margin-left: 65px;
+	}
+
+	.how__item__text {
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+		display: inline-block;
+		margin-top: 120px;
+		width: 330px;
+		margin-left: 0;
+	}
+
+	.how__item__rez {
+		width: 950px;
+		height: 330px;
+		margin: 0 auto;
+	}
+
+	.how__item__img__rez {
+		float: left;
+		margin-left: 85px;
+	}
+
+	.how__item__text__rez {
+		font-size: 25px;
+		margin-left: -190px; 
+	}
+
+	.features__btn {
+		bottom: -90px;
+	}
+
+	.tv {
+		margin-top: 250px;
+		padding-right: 0;
+		position: relative;
+		height: 850px;
+		width: 690px;
+	}
+
+	.tv--w {
+		width: auto;
+	}
+
+	.tv__title {
+		font-weight: bold;
+		font-size: 34px;
+		color: #4fcd5e;
+		text-align: center;
+		margin-left: 0;
+		margin-bottom: 40px;
+	}
+
+	.tv__item {
+		height: 200px;
+		width: 300px;
+		background-color: gray;
+		margin-right: 0;
+		border: 3px solid #4fcd5e;
+		border-radius: 3px;
+		margin-bottom: 35px;
+		display: inline-block;
+	}
+
+	.tv__item--even {
+		float: right;
+		margin-right: 30px;
+	}
+
+	.timer {
+		background-image: url(../img/bg-timer1.png);
+		background-repeat: repeat-x;
+		background-position: center 0;
+		width: 768px;
+		height: 380px;
+		text-align: center;
+		position: relative;
+	}
+
+	.timer__title {
+		width: 680px;
+		font-size: 30px;
+		font-weight: bold;
+		color: white;
+		display: inline-block;
+		margin-top: 30px;
+	}
+
+	.timer__img {
+		display: none;
+	}
+
+	.timer__btn {
+		background-color: #704c6b;
+		display: inline-block;
+		font-size: 30px;
+		font-weight: bold;
+		padding: 20px 44px 17px 43px;
+		border-radius: 4px;
+		text-decoration: none;
+		color: white;
+		-webkit-box-shadow: 0px 10px 1px 0px rgba(80,47,75,1);
+		-moz-box-shadow: 0px 10px 1px 0px rgba(80,47,75,1);
+		box-shadow: 0px 10px 1px 0px rgba(80,47,75,1);
+		position: relative;
+		top: 45px;
+	}
+
+	.timer__countdown {
+		background-color: #704669;
+		width: 100%;
+		margin-top: 19px;
+		position: relative;
+		z-index: 1;
+	}
+
+	.countdown {
+		width: 750px;
+		padding: 40px 0;
+		margin: 0 auto;
+	}
+
+	.why {
+		width: 710px;
+		text-align: center;
+		position: relative;	
+		margin-top: 240px;
+	}
 }

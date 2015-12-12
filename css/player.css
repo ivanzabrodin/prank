@@ -2,7 +2,7 @@ a {
     text-decoration: none;
 }
 .jp-jplayer,.jp-audio {
-    margin: 38px auto;
+    margin: 38px 0 38px 20px;
     width: 865px;
 }
 
@@ -104,4 +104,29 @@ a {
     background-color: black;
     height: 8px;
     border-radius: 20px 20px 20px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .jp-progress {
+        background-color: #131f28;
+        border-radius: 0 20px 20px 0;
+        overflow: hidden;
+        position: absolute;
+        left: 82px;
+        top: 24px;
+        width: 600px;
+        height: 30px;
+
+    }
+    .jp-time-holder {
+        color: #29bb39;
+        font-size: 24px;
+        position: absolute;
+        left: 430px;
+        top: -5px;
+        font-weight: bold; 
+    }
+
+
+
 }
