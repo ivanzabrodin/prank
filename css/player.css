@@ -2,8 +2,9 @@ a {
     text-decoration: none;
 }
 .jp-jplayer,.jp-audio {
-    margin: 38px 0 38px 20px;
+    margin: 38px 0 38px 0;
     width: 865px;
+    display: inline-block;
 }
 
 .jp-controls {

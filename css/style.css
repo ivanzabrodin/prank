@@ -87,9 +87,8 @@ header {
 }
 
 .header__buttons {
-	margin-top: 200px;
-	margin-left: 80px;
-	width: 1100px;
+	margin: 200px auto 0;
+	width: auto;
 }
 
 .header__buttons__button {
@@ -104,17 +103,18 @@ header {
 	background-image: url(../img/bg-button.png);
 	background-repeat: no-repeat;
 	background-position: center 27px;
-	padding: 185px 31px 30px 30px;
-	width: 170px;
+	padding: 185px 20px 30px 24px;
+	width: 155px;
 	position: relative;
+	margin-left: 4%;
 }
 
 .header__buttons__img--how {
 	position: absolute;
 	left: 50%;
-	margin-left: -333px;
+	margin-left: -334px;
 	top: 0;
-	margin-top: -230px;
+	margin-top: -229px;
 	position: absolute;
 	top: 200px;
 	left: 200px;
@@ -123,7 +123,7 @@ header {
 .header__buttons__img--examples {
 	position: absolute;
 	left: 50%;
-	margin-left: 60px;
+	margin-left: 45px;
 	top: 0;
 	margin-top: 25px;
 	position: absolute;
@@ -134,7 +134,7 @@ header {
 .header__buttons__img--about {
 	position: absolute;
 	left: 50%;
-	margin-left: 15px;
+	margin-left: 0;
 	top: 0;
 	margin-top: 8px;
 	position: absolute;
@@ -145,7 +145,7 @@ header {
 .header__buttons__img--reviews {
 	position: absolute;
 	left: 50%;
-	margin-left: 42px;
+	margin-left: 28px;
 	top: 0;
 	margin-top: 26px;
 	position: absolute;
@@ -198,7 +198,7 @@ header {
 }
 
 .how__item {
-	width: 703px;
+	width: 725px;
 	height: 330px;
 	margin: 0 auto;
 	margin-bottom: 30px;
@@ -206,7 +206,7 @@ header {
 
 .how__item__img {
 	float: left;
-	margin-left: 85px;
+	
 }
 
 .how__item__text {
@@ -215,19 +215,19 @@ header {
 	font-weight: bold;
 	display: inline-block;
 	margin-top: 120px;
-	width: 330px;
+	width: 430px;
 	margin-left: 38px;
 }
 
 .how__item__rez {
-	width: 950px;
+	width: 725px;
 	height: 330px;
 	margin: 0 auto;
 }
 
 .how__item__img__rez {
 	float: left;
-	margin-left: 205px;
+	
 }
 
 .how__item__text__rez {
@@ -264,6 +264,7 @@ header {
 
 .example__item {
 	height: 280px;
+	margin: 0 auto;
 }
 
 .example__item--last {
@@ -274,7 +275,6 @@ header {
 	font-weight: bold;
 	font-size: 30px;
 	color: #29bb39;
-	width: 750px;
 	display: inline-block;
 }
 
@@ -459,9 +459,9 @@ header {
 
 .features__nlo-img {
 	position: absolute;
-	bottom: -382px;
+	bottom: -310px;
 	left: 50%;
-	margin-left: 450px;
+	margin-left: 20%;
 }
 
 .tv {
@@ -760,6 +760,14 @@ header {
 	margin-left: 300px;
 }
 
+.reviews__img1--min {
+	display: none;
+}
+
+.reviews__img2--min {
+	display: none;
+}
+
 .reviews__title--green {
 	color: green;
 }
@@ -775,13 +783,12 @@ header {
 }
 
 footer {
+	height: auto;
 	position: relative;
-	height: 978px;
 	background-image: url(../img/bg-footer.jpg);
 	background-repeat: no-repeat;
 	background-position: center 0;
 	text-align: center;
-	
 }
 
 .footer__form {
@@ -958,10 +965,8 @@ footer {
 
 .footer__address {
 	text-align: left;
-	margin-top: 62px;
-	position: absolute;
-	left: 50%;
-	margin-left: -572px;
+	float: left;
+	margin-top: 50px;
 }
 
 .footer__address__text {
@@ -972,10 +977,8 @@ footer {
 
 .footer__author {
 	text-align: right;
-	position: absolute;
-	left: 50%;
-	margin-left: 168px;
-	top: 704px;
+	float: right;
+	margin-top: 100px;
 }
 
 .footer__author__text {
@@ -985,11 +988,8 @@ footer {
 }
 
 .footer__pay {
-	position: absolute;
-	bottom: 92px;
-	left: 50%;
-	margin-left: -496px;
-	opacity: 0.7;
+	margin: 230px auto 0;
+	padding-bottom: 50px;
 }
 
 .footer__pay__al {
@@ -1122,7 +1122,16 @@ footer {
 	margin-left: -80px;
 }
 
+@media screen and (max-width: 1400px) {
+	.features__nlo-img {
+		display: none;
+	}
 
+	.tv__robo {
+		display: none;
+	}
+
+}
 
 @media screen and (max-width: 960px) {
 	.container {
@@ -1150,20 +1159,21 @@ footer {
 		text-align: center;
 		color: white;
 		text-decoration: none;
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: 700;
 		display: inline-block;
 		background-image: url(../img/bg-button.png);
 		background-repeat: no-repeat;
 		background-position: center 27px;
-		padding: 185px 31px 30px 30px;
-		width: 140px;
+		padding: 185px 20px 30px 24px;
+		width: 120px;
 		position: relative;
+		margin-left: 3%;
 	}
 
 	.header__buttons {
 		margin-top: 200px;
-		margin-left: 80px;
+		margin-left: 0;
 	}
 
 	.header__buttons__img--how {
@@ -1417,12 +1427,32 @@ footer {
 		margin-top: 35px;
 	}
 
-	.footer__pay {
+	.reviews__img1 {
+		display: none;
+	}
+
+	.reviews__img2 {
+		display: none;
+	}
+
+	.reviews__img1--min {
 		position: absolute;
-		bottom: 60px;
 		left: 50%;
-		margin-left: -496px;
-		opacity: 0.7;
+		bottom: 230px;
+		margin-left: -460px;
+		display: inline-block;
+	}
+
+	.reviews__img2--min {
+		position: absolute;
+		left: 50%;
+		bottom: 230px;
+		margin-left: 260px;
+		display: inline-block;
+	}
+
+	.footer__pay {
+		margin: 230px auto 0;
 	}
 }
 
@@ -1528,35 +1558,40 @@ footer {
 		margin-bottom: 28px;
 	}
 
+	.how__item {
+		width: auto;
+		height: 330px;
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+
 	.how__item__img {
 		float: left;
-		margin-left: 65px;
 	}
 
 	.how__item__text {
 		color: white;
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: bold;
 		display: inline-block;
 		margin-top: 120px;
-		width: 330px;
+		width: 250px;
 		margin-left: 0;
 	}
 
 	.how__item__rez {
-		width: 950px;
+		width: 750px;
 		height: 330px;
 		margin: 0 auto;
 	}
 
 	.how__item__img__rez {
 		float: left;
-		margin-left: 85px;
 	}
 
 	.how__item__text__rez {
 		font-size: 25px;
-		margin-left: -190px; 
+		margin-left: 0; 
 	}
 
 	.features__btn {
@@ -1658,5 +1693,16 @@ footer {
 		text-align: center;
 		position: relative;	
 		margin-top: 240px;
+	}
+
+	.footer__address__text {
+		font-size: 14px;
+		color: #ffffff;
+		font-weight: bold;
+	}
+	.footer__author__text {
+		font-size: 30px;
+		color: #4fcd5e;
+		font-weight: bold;
 	}
 }
