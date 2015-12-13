@@ -107,7 +107,13 @@ a {
     border-radius: 20px 20px 20px 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
+    .jp-jplayer,.jp-audio {
+        margin: 38px 0 38px 0;
+        width: 685px;
+        display: inline-block;
+    }
+
     .jp-progress {
         background-color: #131f28;
         border-radius: 0 20px 20px 0;
