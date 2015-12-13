@@ -88,12 +88,13 @@ header {
 
 .header__buttons {
 	margin: 200px auto 0;
-	width: auto;
+	width: 100%;
+	text-align: center;
 }
 
 .header__buttons__button {
 	margin-left: 19px;
-	float: left;
+	vertical-align: top;
 	text-align: center;
 	color: white;
 	text-decoration: none;
@@ -463,7 +464,7 @@ header {
 .tv {
 	margin-top: 297px;
 	position: relative;
-	height: 1626px;
+	height: 1400px;
 	width: 100%;
 	text-align: center;
 }
@@ -489,7 +490,7 @@ header {
 .tv__robo {
 	position: absolute;
 	left: 50%;
-	bottom: 160px;
+	bottom: 0;
 	margin-left: -952px;
 }
 
@@ -1184,6 +1185,19 @@ footer {
 		text-align: center;
 	}
 
+	.header__btn-order {
+		display: inline-block;
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+		padding: 8px 7px 10px 8px;
+		border: 4px solid #23c52e;
+		text-decoration: none;
+		border-radius: 4px;
+		margin-left: -450px;
+		margin-top: -10px;
+	}
+
 	.features {
 		background-color: #131313;
 		width: auto;
@@ -1265,15 +1279,90 @@ footer {
 		-moz-box-shadow: 0px 8px 1px 0px rgba(28,142,41,1);
 		box-shadow: 0px 8px 1px 0px rgba(28,142,41,1);
 	}
+
+	.why__item--one {
+		width: 280px;
+		height: 490px;
+	}
+
+	.why__item--green {
+		width: 280px;
+		height: 490px;
+	}
+
+	.why__item--three {
+		width: 280px;
+		height: 490px;
+	}
 }
 
 @media screen and (max-width: 990px) {
+	.tv__item {
+		height: 270px;
+		width: 450px;
+		background-color: gray;
+		border: 3px solid #4fcd5e;
+		border-radius: 3px;
+		margin-bottom: 76px;
+		display: inline-block;
+	}
+
 	.reviews__img1--min {
 		display: none;
 	}
 
 	.reviews__img2--min {
 		display: none;
+	}
+
+	.header__buttons__button {
+		margin-left: 0;
+		float: left;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		font-size: 25px;
+		font-weight: 700;
+		display: inline-block;
+		background-image: url(../img/bg-button.png);
+		background-repeat: no-repeat;
+		background-position: center 27px;
+		padding: 185px 20px 30px 24px;
+		width: 120px;
+		position: relative;
+		margin-left: 6%;
+	}
+
+	.header__buttons__img--how {
+		position: absolute;
+		left: 50%;
+		margin-left: -235px;
+		top: 0;
+		margin-top: -31px;
+	}
+
+	.header__buttons__img--examples {
+		position: absolute;
+		left: 50%;
+		margin-left: -55px;
+		top: 0;
+		margin-top: 25px;
+	}
+
+	.header__buttons__img--about {
+		position: absolute;
+		left: 50%;
+		margin-left: -100px;
+		top: 0;
+		margin-top: 8px;
+	}
+
+	.header__buttons__img--reviews {
+		position: absolute;
+		left: 50%;
+		margin-left: -72px;
+		top: 0;
+		margin-top: 26px;
 	}
 }
 
@@ -1499,10 +1588,6 @@ footer {
 		margin: 0 auto;
 	}
 
-	.why--w {
-		width: auto;
-	}
-
 	.why__img {
 		position: absolute;
 		left: 50%;
@@ -1590,6 +1675,24 @@ footer {
 		overflow: hidden;
 		}
 
+	.header__logo {
+		margin: 500px auto 48px;
+		width: auto;
+	}
+
+	.header__logo__img {
+		display: inline-block;
+		float: left;
+		margin-right: 48px;
+		margin-top: 21px;
+	}
+
+	.header__logo__text {
+	 	color: white;
+		font-size: 40px;
+		font-weight: 700;
+	}
+
 	.header__btn-order {
 		display: inline-block;
 		color: white;
@@ -1599,19 +1702,18 @@ footer {
 		border: 4px solid #23c52e;
 		text-decoration: none;
 		border-radius: 4px;
-		margin-left: -350px;
+		margin-left: 0;
 		margin-top: -10px;
 	}
 
 	.header__buttons {
-		margin-top: 50px;
-		margin-left: 170px;
-		width: 440px;
+		margin: 50px auto 0;
+		width: 100%;
+		text-align: center;
+		max-width: 450px;
 	}
 
 	.header__buttons__button {
-		margin-left: 0;
-		float: left;
 		text-align: center;
 		color: white;
 		text-decoration: none;
@@ -1625,6 +1727,7 @@ footer {
 		width: 140px;
 		position: relative;
 		height: 70px;
+		margin-left: 0;
 	}
 
 	.header__buttons__img--how {
@@ -1633,7 +1736,6 @@ footer {
 		margin-left: -333px;
 		top: 0;
 		margin-top: -230px;
-		position: absolute;
 		top: 200px;
 		left: 200px;
 	}
@@ -1644,7 +1746,6 @@ footer {
 		margin-left: 45px;
 		top: 0;
 		margin-top: 25px;
-		position: absolute;
 		top: 0;
 		left: 0;
 	}
@@ -1655,7 +1756,6 @@ footer {
 		margin-left: 0;
 		top: 0;
 		margin-top: 8px;
-		position: absolute;
 		top: 0;
 		left: 0;
 	}
@@ -1666,7 +1766,6 @@ footer {
 		margin-left: 27px;
 		top: 0;
 		margin-top: 26px;
-		position: absolute;
 		top: 0;
 		left: 0;
 	}
@@ -1693,7 +1792,7 @@ footer {
 		display: inline-block;
 		margin-top: 120px;
 		width: 250px;
-		margin-left: 0;
+		margin-left: 20px;
 	}
 
 	.how__item__rez {
@@ -1708,7 +1807,7 @@ footer {
 
 	.how__item__text__rez {
 		font-size: 25px;
-		margin-left: 0; 
+		margin-left: 20px; 
 	}
 
 	.features__btn {
@@ -1720,7 +1819,8 @@ footer {
 		padding-right: 0;
 		position: relative;
 		height: 850px;
-		width: auto;
+		width: 100%;
+		text-align: center;
 	}
 
 	.tv__title {
