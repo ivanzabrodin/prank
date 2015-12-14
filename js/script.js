@@ -19,7 +19,7 @@ $(document).ready(function() {
     $("#jquery_jplayer_1").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            mp3: "media/glass_candy_-_digital_versicolor.mp3"
+            mp3: "media/mokadelic_-_doomed_to_live.mp3"
           });
         },
         swfPath: "/js",
@@ -35,7 +35,7 @@ $(document).ready(function() {
     $("#jquery_jplayer_2").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            mp3: "" 
+            mp3: "media/Mokadelic -Tragic vodka.mp3" 
           });
         },
         swfPath: "/js",
@@ -52,7 +52,7 @@ $(document).ready(function() {
     $("#jquery_jplayer_3").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            mp3: "" 
+            mp3: "media/Mokadelic -Easy father.mp3" 
           });
         },
         swfPath: "/js",
