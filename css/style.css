@@ -2065,6 +2065,175 @@ footer {
 		display: none;
 	}
 
+	.timer {
+		width: 100%;
+		height: 350px;
+	}
 
+	.timer__title {
+		width: auto;
+		font-size: 20px;
+		margin-top: 20px;
+	}
+
+	.timer__img {
+		display: none;
+	}
+
+	.timer__btn {
+		font-size: 30px;
+		padding: 13px 15px 17px 13px;
+		top: 55px;
+	}
+
+	.timer__countdown {
+		background-color: #704669;
+		width: 100%;
+		margin-top: 0;
+		position: relative;
+		z-index: 1;
+	}
+
+	.countdown {
+		max-width: none;
+		width: 290px;
+		padding: 20px 0;
+		margin: 0 auto;
+	}
+
+	.why {
+		margin-top: 100px;
+	}
+
+	.why__img {
+		display: none;
+	}
+
+	.why__title {
+		font-size: 	25px;
+		width: auto;
+		margin: 0 auto 20px;
+	}
+
+	.why__title--green {
+		color: #39b146;
+	}
+
+	.why__item--one {
+		height: 398px;
+		width: 310px;
+		padding: 5px;
+	}
+
+	.why__item--three {
+		height: 250px;
+		width: 310px;
+		padding: 5px;
+		margin-left: 0;
+	}
+
+	.why__item--green {
+		height: auto;
+		width: 310px;
+		padding: 5px;
+		margin: 0;
+	}
+
+	.why__item__title {
+		font-size: 18px;
+		font-weight: bold;
+		display: inline-block;
+		margin-bottom: 30px;
+	}
+
+	.why__item__title--green-item {
+		font-size: 22px;
+		font-weight: bold;
+		display: inline-block;
+		width: 250px;
+		text-align: center;
+
+	}
+
+	.why__item__text {
+		font-size: 15px;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	.why__form {
+		width: 320px;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.why__form__name {
+		padding: 10px 16px 10px 66px;
+		border: 4px solid #5cb967;
+		border-radius: 4px;
+		font-size: 18px;
+		font-weight: bold;
+		width: auto;
+		background-color: transparent;
+		color: black;
+		margin-top: 80px;
+	}
+
+	.why__form__mail {
+		padding: 10px 26px 10px 57px;
+		border: 4px solid #5cb967;
+		border-radius: 4px;
+		font-size: 18px;
+		width: auto;
+		background-color: transparent;
+		margin: 20px auto;
+	}
+
+	.why__form__btn {
+		padding: 10px 27px;
+		border-radius: 4px;
+		font-size: 20px;
+		width: 266px;
+		margin-bottom: 90px;
+	}
+
+	.reviews {
+		height: 689px;
+		position: relative;
+		text-align: center;
+		margin-top: 35px;
+	}
+
+	.reviews__title {
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+		width: auto;
+		margin: 0 auto;
+	}
+
+	.reviews__img1 {
+		position: absolute;
+		left: 50%;
+		margin-left: -560px;
+	}
+
+	.reviews__img2 {
+		position: absolute;
+		left: 50%;
+		margin-left: 300px;
+	}
+
+	.reviews__img1--min {
+		display: none;
+	}
+
+	.reviews__img2--min {
+		display: none;
+	}
+
+	.reviews__title--green {
+		color: green;
+	}
 
 }

@@ -96,3 +96,44 @@
 */
 .anythingSlider .wrapper ul ul          { position: static; margin: 0; background: none; overflow: visible; width: auto; border: 0; }
 .anythingSlider .wrapper ul ul li       { float: none; height: auto; width: auto; background: none; }
+
+@media screen and (max-width: 700px) {
+    .anythingSlider {
+        position: relative;
+        width: 300px;
+        height: 320px;
+        left: 50%;
+        right: 50%;
+        margin: 0 auto;
+    }
+
+    .anythingSlider .wrapper {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        right: 50%;
+        margin: 0 auto;
+        overflow: auto;
+        width: 300px;
+        height: 320px;
+        margin-top: 45px;
+        background-image: url(../img/bg-reviews.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        border-radius: 9px;
+    }
+
+    .anythingSlider ul li {
+        display: block;
+        float: none;
+        position: absolute;
+        left: 50%;
+        right: 50%;
+        margin: 0 auto;
+        width: 300px;
+        height: 320px;
+        padding: 0;
+        color: white;
+    }
+
+}
