@@ -115,7 +115,7 @@ header {
 	left: 50%;
 	margin-left: -334px;
 	top: 0;
-	margin-top: -229px;
+	margin-top: -209px;
 	position: absolute;
 	top: 200px;
 	left: 200px;
@@ -207,7 +207,10 @@ header {
 
 .how__item__img {
 	float: left;
-	
+}
+
+.how__item__img--mini {
+	display: none;
 }
 
 .how__item__text {
@@ -1897,7 +1900,7 @@ footer {
 	}
 
 	.why {
-		width: 710px;
+		width: auto;
 		text-align: center;
 		position: relative;	
 		margin-top: 240px;
@@ -1913,4 +1916,155 @@ footer {
 		color: #4fcd5e;
 		font-weight: bold;
 	}
+}
+
+@media screen and (max-width: 700px) {
+	.container {
+		max-width: 700px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.head-how {
+		background-image: url(../img/bg-head-how.png);
+		background-repeat: repeat-x;
+		background-position: center 0;
+		width: 100%;
+		height: 80px;
+		text-align: center;
+	}
+
+	.head-how__title {
+		color: white;
+		font-size: 30px;
+		font-weight: bold;
+		display: inline-block;
+		margin-top: 20px;
+	}
+
+	.how {
+		background-image: url(../img/bg-how.jpg);
+		background-repeat: no-repeat;
+		background-position: center 0;
+		padding-top: 20px;
+		padding-bottom: 0;
+		text-align: center;
+	}
+
+	.how__item {
+		width: auto;
+		height: 200px;
+		margin-bottom: 70px;
+	}
+
+	.how__item__img {
+		display: none;
+	}
+
+	.how__item__img--mini {
+		text-align: center;
+		display: inline-block;
+	}
+
+	.how__item__text {
+		font-size: 20px;
+		margin-top: 0;
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.how__item__rez {
+		width: auto;
+		margin-top: -50px;
+	}
+
+	.how__item__img__rez {
+		display: none;
+		
+	}
+
+	.how__item__text__rez {
+		width: 300px;
+		color: white;
+		font-size: 17px;
+		margin-top: 0;
+		margin-left: 0; 
+	}
+	.how__item__btn {
+		padding: 10px 6px 11px 8px;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-left: 0;
+	}
+
+	.example {
+		height: auto;
+		text-align: center;
+		padding-top: 20px;
+	}
+
+	.example__item {
+		height: 200px;
+		margin: 0 auto;
+	}
+
+	.example__item--last {
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+
+	.example__item__text {
+		font-size: 20px;
+	}
+	
+	.order__name {
+		padding: 10px 0 12px 20px;
+		font-size: 19px;
+		width: 215px;
+		margin-top: 828px;
+		margin-bottom: 28px;
+	}
+
+	.order__mail {
+		padding: 10px 0 12px 11px;
+		font-size: 19px;
+		width: 227px;
+		margin-bottom: 30px;
+	}
+
+	.order__btn {
+		padding: 11px 8px 11px 9px;
+		font-size: 25px;
+		width: 230px;
+		margin-bottom: 250px;
+	}
+
+	.features__title {
+		font-size: 38px;
+		margin-top: -60px; 
+	}
+
+	.tv {
+		margin-top: 200px;
+		margin-bottom: 30px;
+		height: auto;
+	}
+
+	.tv__title {
+		font-size: 34px;
+		margin-bottom: 20px;
+	}
+
+	.tv__item {
+		height: 150px;
+		width: 250px;
+		margin-bottom: 20px;
+	}
+
+	.tv__robo {
+		display: none;
+	}
+
+
+
 }
