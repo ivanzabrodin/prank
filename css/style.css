@@ -370,13 +370,11 @@ header {
 }
 
 .features__item--one {
-	width: 550px;
 	display: inline-block;
 	width: 538px;
 }
 
 .features__item--two {
-	width: 550px;
 	display: inline-block;
 	width: 538px;
 	margin-left: 0px;
@@ -394,13 +392,11 @@ header {
 }
 
 .features__item--three {
-	width: 550px;
 	display: inline-block;
 	width: 538px;
 }
 
 .features__item--four {
-	width: 550px;
 	display: inline-block;
 	margin-top: -150px;
 	width: 538px;
@@ -408,6 +404,22 @@ header {
 	position: relative;
 	left: 13px;
 	bottom: 90px;
+}
+
+.features__item__img--one--mini {
+	display: none;
+}
+
+.features__item__img--two--mini {
+	display: none;
+}
+
+.features__item__img--three--mini {
+	display: none;
+}
+
+.features__item__img--four--mini {
+	display: none;
 }
 
 .features__item__img--one {
@@ -2039,9 +2051,92 @@ footer {
 		margin-bottom: 250px;
 	}
 
+	.features {
+		background-color: #131313;
+		width: 100%;
+		position: relative;
+		margin-top: 70px;
+		height: auto;
+	}
+
 	.features__title {
 		font-size: 38px;
 		margin-top: -60px; 
+	}
+
+	.features__item__img--one {
+		display: none;
+	}
+
+	.features__item__img--two {
+		display: none;
+	}
+
+	.features__item__img--three {
+		display: none;
+	}
+
+	.features__item__img--four {
+		display: none;
+	}
+
+	.features__item__img--one--mini {
+		display: inline-block;
+	}
+
+	.features__item__img--two--mini {
+		display: inline-block;
+	}
+
+	.features__item__img--three--mini {
+		display: inline-block;
+	}
+
+	.features__item__img--four--mini {
+		display: inline-block;
+	}
+
+	.features__item--one {
+		width: auto;
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+
+	.features__item--two {
+		width: auto;
+		display: inline-block;
+		position: static;
+		margin-bottom: 40px;
+	}
+
+	.features__item__x {
+		display: none;
+	}
+
+	.features__item--three {
+		width: auto;
+		margin-bottom: 40px;
+	}
+
+	.features__item--four {
+		width: auto;
+		display: inline-block;
+		margin-top: 0;
+		position: static;
+		margin-bottom: 40px;
+	}
+
+	.features__item__title {
+		font-size: 23px;
+		margin-bottom: 0;
+	}
+
+	.features__item__text {
+		font-size: 23px;
+	}
+
+	.features__btn {
+		bottom: -50px
 	}
 
 	.tv {
