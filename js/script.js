@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+  $("[data-toggle]").click(function() {
+    var toggle_el = $(this).data("toggle");
+    $(toggle_el).toggleClass("open-sidebar");
+  });
+
   $('.smoothScroll').click(function(event) {
     event.preventDefault();
     var href=$(this).attr('href');

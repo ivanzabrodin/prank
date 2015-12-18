@@ -13,6 +13,21 @@
 	<!-- Header -->
 	<header>
 		<div class="container">
+		<div class="cont">
+		<div id="sidebar">
+	        <ul>
+	            <li><a href="#how" class="smoothScroll">Как это выглядит?</a></li>
+	            <li><a href="#examples" class="smoothScroll">Примеры</a></li>
+	            <li><a href="#about" class="smoothScroll">О нас</a></li>
+	            <li><a href="#reviews" class="smoothScroll">Отзывы</a></li>
+	        </ul>
+    	</div>
+    	<a href="#" data-toggle=".cont" id="sidebar-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        </div>
 			<div class="header__logo">
 				<img src="img/play.png" alt="" class="header__logo__img">
 				<h1 class="header__logo__text">Телефонные розыгрыши, планетарного масштаба</h1>
@@ -277,9 +292,11 @@
 								<span class="why__item__text">Вы сможете услышать результат розыгрыша получив его запись на свою почту. Скачивайте ее, показывайте друзьям и используйте так, как Вам угодно. Запись не распространяется третьим лицам, не выкладывается в интернет и полностью конфиденциальна.</span>
 							</div>
 							<div class="why__form">
+							<form action="#">
 								<input type="text" class="why__form__name" placeholder="Введите ваше имя">
 								<input type="text" class="why__form__mail" placeholder="Введите адрес почты">
-								<a href="" class="why__form__btn">Оставить заявку</a>
+								<input type="submit" value="Оставить заявку" class="why__form__btn"></a>
+							</form>
 							</div>
 				</div>
 				</div>
@@ -334,19 +351,25 @@
 					<div class="container">
 					<h3 class="footer__title">Оформи заявку на пранк прямо сейчас!</h3>
 						<div class="footer__form">
+								<form action="#">
+								<div>
 									<input type="text" class="footer__form__name" placeholder="Введите ваше имя">
+								</div>
+								<div>	
 									<input type="text" class="footer__form__mail" placeholder="Введите адрес почты">
-									<a href="" class="footer__form__btn">Оставить заявку</a>
+								</div>
+									<input type="submit" value="Оставить заявку" class="footer__form__btn"></a>
+								</form>
 								</div>
 						<div class="footer__social">
-							<a href="" class="footer__social__vk"></a>
-							<a href="" class="footer__social__tw"></a>
-							<a href="" class="footer__social__rss"></a>
-							<a href="" class="footer__social__youtube"></a>
-							<a href="" class="footer__social__lj"></a>
-							<a href="" class="footer__social__tor"></a>
-							<a href="" class="footer__social__itunes"></a>
-							<a href="" class="footer__social__flash"></a>
+							<a href="#"><img src="img/vk.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/tw.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/rss.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/youtube.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/lj.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/tor.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/itunes.png" class="footer__social__item"></a>
+							<a href="#"><img src="img/flash.png" class="footer__social__item"></a>
 						</div>
 						<div class="footer__address">
 							<span class="footer__address__text">ЗАО "Пранкота"<br>1488 Москва,<br>ул. Пушкина дом Колотушкина.<br>Пишите на volnov@prankota.com<br>Ⓒ Все права защищены. 2015
@@ -356,17 +379,17 @@
 							<span class="footer__author__text">Евгений Вольнов</span>
 						</div>
 						<div class="footer__pay">
-							<a href ="#" class="footer__pay__al"></a>
-							<a href ="#" class="footer__pay__mc"></a>
-							<a href ="#" class="footer__pay__pp"></a>
-							<a href ="#" class="footer__pay__pr"></a>
-							<a href ="#" class="footer__pay__qw"></a>
-							<a href ="#" class="footer__pay__sb"></a>
-							<a href ="#" class="footer__pay__vi"></a>
-							<a href ="#" class="footer__pay__w1"></a>
-							<a href ="#" class="footer__pay__wm"></a>
-							<a href ="#" class="footer__pay__pb"></a>
-							<a href ="#" class="footer__pay__ya"></a>
+							<a href ="#"><img src="img/alfa.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/mastercard.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/paypal.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/pochta.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/qiwi.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/sberbank.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/visa.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/w1.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/web.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/xz.png" class="footer__pay__item"></a>
+							<a href ="#"><img src="img/ya.png" class="footer__pay__item"></a>
 						</div>
 					</div>
 				</footer>
