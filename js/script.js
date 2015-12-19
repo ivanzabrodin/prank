@@ -17,7 +17,7 @@ $(document).ready(function() {
 
   $(function () {
     var austDay = new Date();
-    austDay = new Date(austDay.getFullYear(2015), 11, 7);
+    austDay = new Date(2015, 11, 31);
     $('#countdown').countdown({until: austDay, padZeroes: true, format: "HMS"});
   });
 

@@ -260,9 +260,7 @@ header {
 }
 
 .how__item__btn:hover {
-	-webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+	background-color: #2ea23c;
 }
 
 .example {
@@ -334,9 +332,8 @@ header {
 }
 
 .order__btn:hover {
-	-webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+	background-color: #2ea23c;
+	transition: 0.5s;
 }
 
 .features {
@@ -480,10 +477,9 @@ header {
 	box-shadow: 0px 8px 1px 0px rgba(28,142,41,1);
 }
 
-.features__btn {
-	-webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+.features__btn:hover {
+	background-color: #2ea23c;
+	transition: 0.5s;
 }
 
 .features__nlo-img {
@@ -570,9 +566,8 @@ header {
 }
 
 .timer__btn:hover {
-	-webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+	background-color: #422d3f;
+	transition: 0.5s;
 }
 
 .timer__countdown {
@@ -767,9 +762,8 @@ header {
 }
 
 .why__form__btn:hover {
-	-webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+	background-color: #2ea23c;
+	transition: 0.5s;
 }
 
 .reviews {
@@ -887,9 +881,7 @@ footer {
 }
 
 .footer__form__btn:hover {
-	-webkit-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
-	box-shadow: inset 0px 0px 40px 0px rgba(0,0,0,0.75);
+	background-color: #2ea23c;
 }
 
 .footer__form__name::-webkit-input-placeholder {
@@ -998,6 +990,15 @@ footer {
 	margin-left: -80px;
 }
 
+.why__form__name:focus,
+.why__form__mail:focus,
+.footer__form__name:focus,
+.footer__form__mail:focus,
+.order__name:focus,
+.order__mail:focus {
+	outline: none;
+}
+
 @media screen and (max-width: 1570px) {
 	.features__nlo-img {
 		margin-left: 100px;
@@ -1063,6 +1064,14 @@ footer {
 
 	.why__item--three {
 		margin-left: 0;
+	}
+
+	.footer__address {
+		margin-left: 20px;
+	}
+
+	.footer__author {
+		margin-right: 20px;
 	}
 }
 
@@ -2339,6 +2348,7 @@ footer {
 		text-align: center;
 		float: none;
 		margin-top: 50px;
+		margin-left: 0;
 	}
 
 	.footer__address__text {
@@ -2351,6 +2361,7 @@ footer {
 		text-align: center;
 		float: none;
 		margin-top: 50px;
+		margin-right: 0;
 	}
 
 	.footer__author__text {
