@@ -44,6 +44,7 @@ body {
 		display: none;
 }
 
+/*Header*/
 header {
 	margin: 0;
 	height: 1280px;
@@ -175,8 +176,10 @@ header {
 .header__buttons__bg {
 	margin-bottom: 28px;
 }
+/*Header*/
 
 /*Main*/
+/*How*/
 .head-how {
 	background-image: url(../img/bg-head-how.png);
 	background-repeat: repeat-x;
@@ -192,7 +195,6 @@ header {
 	font-weight: bold;
 	display: inline-block;
 }
-/*Main*/
 
 .how {
 	background-image: url(../img/bg-how.jpg);
@@ -268,7 +270,9 @@ header {
 	background-color: #2ea23c;
 	transition: 0.5s;
 }
+/*How*/
 
+/*Examples*/
 .example {
 	height: 827px;
 	text-align: center;
@@ -290,7 +294,9 @@ header {
 	color: #29bb39;
 	display: inline-block;
 }
+/*Examples*/
 
+/*Order*/
 .order {
 	width: 100%;
 	background-image: url(../img/bg-bottom-table.png);
@@ -342,7 +348,9 @@ header {
 	background-color: #2ea23c;
 	transition: 0.5s;
 }
+/*Order*/
 
+/*Features*/
 .features {
 	background-color: #131313;
 	width: 100%;
@@ -495,7 +503,9 @@ header {
 	left: 50%;
 	margin-left: 20%;
 }
+/*Features*/
 
+/*Tv*/
 .tv {
 	margin-top: 297px;
 	position: relative;
@@ -528,7 +538,9 @@ header {
 	bottom: 0;
 	margin-left: -952px;
 }
+/*Tv*/
 
+/*Timer*/
 .timer {
 	background-image: url(../img/bg-timer1.png);
 	background-repeat: repeat-x;
@@ -591,7 +603,9 @@ header {
 	padding: 70px 0;
 	margin: 0 auto;
 }
+/*Timer*/
 
+/*Why*/
 .why {
 	width: 100%;
 	text-align: center;
@@ -772,7 +786,9 @@ header {
 	background-color: #2ea23c;
 	transition: 0.5s;
 }
+/*Why*/
 
+/*Reviews*/
 .reviews {
 	height: 689px;
 	position: relative;
@@ -821,7 +837,10 @@ header {
 	border-radius: 9px;
 	margin-top: 45px;
 }
+/*Reviews*/
+/*Main*/
 
+/*Footer*/
 footer {
 	height: auto;
 	position: relative;
@@ -976,6 +995,7 @@ footer {
 	margin-right: 25px;
 	opacity: 0.7;
 }
+/*Footer*/
 
 .reviews__slider__author {
 	display: inline-block;
