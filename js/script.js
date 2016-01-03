@@ -57,7 +57,7 @@ $(document).ready(function() {
     $("#jquery_jplayer_3").jPlayer({
         ready: function () {
           $(this).jPlayer("setMedia", {
-            mp3: "media/happy_b.mp3" 
+            mp3: "media/roskomzazor.mp3"
           });
         },
         swfPath: "/js",
