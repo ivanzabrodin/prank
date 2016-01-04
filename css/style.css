@@ -1268,6 +1268,12 @@ footer {
 		width: 280px;
 		height: 490px;
 	}
+
+	.footer__pay__item {
+		display: inline-block;
+		margin-right: 10px;
+		opacity: 0.7;
+	}
 }
 
 @media screen and (max-width: 990px) {
@@ -1618,10 +1624,27 @@ footer {
 	}
 
 	.footer__pay {
-		margin: 230px auto 0;
+		margin: 200px auto 0;
 	}
 }
 
+@media screen and (max-width: 870px) {
+	.footer__social {
+		margin-top: 60px;
+	}
+
+	.footer__address__text {
+		font-size: 14px;
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	.footer__author__text {
+		font-size: 30px;
+		color: #4fcd5e;
+		font-weight: bold;
+	}
+}
 @media screen and (max-width: 835px) {
 	.tv__item {
 		height: 250px;
@@ -2534,5 +2557,36 @@ footer {
 		font-size: 16px;
 		font-weight: bold;
 		width: 320px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.footer__social {
+		margin: 30px auto;
+	}
+
+	.footer__address {
+		margin-top: 10px;
+	}
+
+	.footer__address__text {
+		font-size: 15px;
+	}
+
+	.footer__author {
+		margin-top: 20px;
+	}
+
+	.footer__author__text {
+		font-size: 23px;
+	}
+
+	.footer__pay {
+		padding-bottom: 0;
+		margin: 20px auto;
+	}
+
+	.footer__authors__top {
+		display: block;
 	}
 }
